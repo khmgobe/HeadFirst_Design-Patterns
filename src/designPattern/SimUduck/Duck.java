@@ -9,6 +9,8 @@ public abstract class Duck {
 
     public abstract void display();
 
+    public abstract void type();
+
     public void performQuack() {
         quackBehavior.quack();
     }

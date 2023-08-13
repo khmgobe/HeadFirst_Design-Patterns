@@ -8,4 +8,8 @@ public class ModelDuck extends Duck {
     public void display() {
         System.out.println("저는 모형 오리입니다");
     }
+
+    public void type() {
+        System.out.println("저는 모형 오리 타입입니다.");
+    }
 }

@@ -6,4 +6,7 @@ public class FlyNoWay implements FlyBehavior{
     public void fly() {
         System.out.println("저는 못 날아요");
     }
+    public void type() {
+        System.out.println("타입은 날 수 없는 오리입니다");
+    }
 }
