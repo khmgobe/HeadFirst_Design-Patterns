@@ -25,7 +25,7 @@ public class WeatherData implements Subject{
     // 모든 옵저버에게 상태 변화를 알려준다.
     public void notifyObservers(){
         for (Observer observer : observers) {
-            observer.update(temperature, humidity, pressure);
+            observer.update();
         }
     }
 
@@ -40,5 +40,9 @@ public class WeatherData implements Subject{
         this.humidity = humidity;
         this.pressure = pressure;
         measurementsChanged();
+    }
+
+    public float getPressure() {
+        return pressure;
     }
 }

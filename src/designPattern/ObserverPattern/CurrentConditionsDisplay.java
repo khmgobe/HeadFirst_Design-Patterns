@@ -1,13 +1,13 @@
-package designPattern.ObserverPattern;
+package src.designPattern.ObserverPattern;
 
-public class CurrentConditionsDisplay implements Observer, DisplayElement{
+public class CurrentConditionsDisplay implements designPattern.ObserverPattern.Observer, designPattern.ObserverPattern.DisplayElement {
 
     private float temperature;
     private float humidity;
-    private WeatherData weatherData;
+    private designPattern.ObserverPattern.WeatherData weatherData;
 
     // 생성자에 weather 주제 전달 및 객체를 써서 디스플레이를 옵저버로 등록
-    public CurrentConditionsDisplay(WeatherData weatherData) {
+    public CurrentConditionsDisplay(designPattern.ObserverPattern.WeatherData weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
@@ -19,5 +19,10 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement{
         this.temperature = temperature;
         this.humidity = humidity;
         display();
+    }
+
+    @Override
+    public void update() {
+
     }
 }
