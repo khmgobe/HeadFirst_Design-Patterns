@@ -51,3 +51,6 @@ src/designPattern/out/production/designPattern/designPattern/StrategyPattern/Sim
 src/designPattern/out/production/designPattern/designPattern/StrategyPattern/SimUduck/QuackBehavior.class
 src/designPattern/out/production/designPattern/designPattern/StrategyPattern/SimUduck/Squak.class
 src/designPattern/out/production/designPattern/src/designPattern/ObserverPattern/CurrentConditionsDisplay.class
+src/designPattern/.idea/misc.xml
+src/designPattern/.idea/uiDesigner.xml
+src/designPattern/.idea/workspace.xml
