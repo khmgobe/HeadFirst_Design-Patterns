@@ -1,12 +1,20 @@
 package designPattern.IteratorPattern;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
+
+/**
+ * 루의 구현.
+ */
 public class PancakeHouseMenu {
     List<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
+        /**
+         * 메뉴 항목 저장, 각 메뉴는 생성자 내에서 ArrayList로 추가된다.
+         */
         menuItems = new ArrayList<MenuItem>();
 
         addItem("K&B 팬케이크 세트",
@@ -27,10 +35,15 @@ public class PancakeHouseMenu {
     }
 
     public void addItem(String name, String description, boolean vegetarian, double price){
-        MenuItem menuitem = new MenuItem(name, description, vegetarian, price); menuItems.add(menuitem);
+        /**
+         * 메뉴 항목을 추가하고 싶다면 필요 인자를 전달하여 객체 생성 후 ArrayList에 추가 할 것.
+         */
+        MenuItem menuitem = new MenuItem(name, description, vegetarian, price);
+        menuItems.add(menuitem);
+    }
+    public Iterator<MenuItem> createIterator() {
+        return menuItems.iterator();
     }
 
-    public List<MenuItem> getMenuItems() {
-        return menuItems;
-    }
+
 }

@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3f0f3f3-5106-4f7e-8560-2bbd900286d2" name="Changes" comment="" />
+    <list default="true" id="d3f0f3f3-5106-4f7e-8560-2bbd900286d2" name="Changes" comment="[feat] 커맨드 패턴 이론 및 실습 완료.">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPattern/NYStyleCheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPattern/NYStyleClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPattern/NYStylePepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPattern/NYStyleVeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPattern/SimplePizzaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/DinerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/DinerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/MenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorPattern/PancakeHouseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorPattern/PancakeHouseMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverPattern/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverPattern/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/ChicagoStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/ChicagoStyleCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/ClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/ClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/PepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/VeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern/FactoryPattern/VeggiePizza.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2TvvSCShFIec3LjuHYoUn9U7iKY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,9 +54,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kimhyeongmin/Documents/GitHub/HeadFirst_Design-Patterns/src/designPattern"
+    "last_opened_file_path": "/Users/kimhyeongmin/Documents/GitHub/HeadFirst_Design-Patterns/src/designPattern",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="designPattern.IteratorPattern" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPattern.IteratorPattern.MenuTestDrive" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPattern.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MenuTestDrive" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
